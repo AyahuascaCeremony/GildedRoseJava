@@ -24,8 +24,7 @@ class GildedRose {
     public void updateQuality() {
         for (int i = 0; i < items.length; i++) {
             Item currentItem = items[i];
-            if (!currentItem.name.equals(AGED_BRIE)
-                    && !currentItem.name.equals(BACKSTAGE_PASSES)) {
+            if (isRegularItem(currentItem)) {
                 if (currentItem.quality > 0) {
                     if (!currentItem.name.equals(SULFURAS)) {
                         currentItem.quality = currentItem.quality - 1;
@@ -73,5 +72,10 @@ class GildedRose {
                 }
             }
         }
+    }
+
+    private boolean isRegularItem(Item currentItem) {
+        return !currentItem.name.equals(AGED_BRIE)
+                && !currentItem.name.equals(BACKSTAGE_PASSES);
     }
 }
