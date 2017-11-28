@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="067178a4-07b6-43db-90d0-4661e08d8876" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/com/gildedrose/ConjuredItemsTestScenarios.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/gildedrose/ConjuredItemsTestScenarios.java" afterPath="$PROJECT_DIR$/test/com/gildedrose/ConjuredItemsTestScenarios.java" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/test/com/gildedrose/ConjuredItemsTestScenarios.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="55" lean-forward="false" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+              <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -136,6 +135,17 @@
             <path>
               <item name="KataGildedRose-Problem-Java-2" type="b2602c69:ProjectViewProjectNode" />
               <item name="KataGildedRose-Problem-Java-2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KataGildedRose-Problem-Java-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KataGildedRose-Problem-Java-2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KataGildedRose-Problem-Java-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KataGildedRose-Problem-Java-2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="gildedrose" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="KataGildedRose-Problem-Java-2" type="b2602c69:ProjectViewProjectNode" />
@@ -420,8 +430,8 @@
     <history-entry file="All_in_KataGildedRose-Problem-Java - 2017.11.28 at 22h 47m 37s.xml">
       <configuration name="All in KataGildedRose-Problem-Java" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BackstagePassesTestScenarios - 2017.11.28 at 22h 34m 46s.xml">
-      <configuration name="BackstagePassesTestScenarios" configurationId="JUnit" />
+    <history-entry file="All_in_KataGildedRose-Problem-Java - 2017.11.28 at 22h 49m 06s.xml">
+      <configuration name="All in KataGildedRose-Problem-Java" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ConjuredItemsTestScenarios_ConjuredItems_quality_decreases_by_two_each_day - 2017.11.28 at 22h 47m 30s.xml">
       <configuration name="ConjuredItemsTestScenarios.ConjuredItems_quality_decreases_by_two_each_day" configurationId="JUnit" />
@@ -523,7 +533,7 @@
     <entry file="file://$PROJECT_DIR$/test/com/gildedrose/ConjuredItemsTestScenarios.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="55" lean-forward="false" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
