@@ -18,8 +18,8 @@
       <file leaf-file-name="GildedRose.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/gildedrose/GildedRose.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="41" column="25" lean-forward="false" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+            <state relative-caret-position="323">
+              <caret line="52" column="21" lean-forward="true" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -28,8 +28,8 @@
       <file leaf-file-name="ConjuredItemsTestScenarios.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com/gildedrose/ConjuredItemsTestScenarios.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="38" column="31" lean-forward="false" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+            <state relative-caret-position="549">
+              <caret line="43" column="31" lean-forward="false" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,8 +73,8 @@
         <option value="$PROJECT_DIR$/test/com/gildedrose/BackstagePassesTestScenarios.java" />
         <option value="$PROJECT_DIR$/test/com/gildedrose/AgedBrieTestScenarios.java" />
         <option value="$PROJECT_DIR$/test/com/gildedrose/RegularItemsTestScenarios.java" />
-        <option value="$PROJECT_DIR$/src/com/gildedrose/GildedRose.java" />
         <option value="$PROJECT_DIR$/test/com/gildedrose/ConjuredItemsTestScenarios.java" />
+        <option value="$PROJECT_DIR$/src/com/gildedrose/GildedRose.java" />
       </list>
     </option>
   </component>
@@ -381,12 +381,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_KataGildedRose-Problem-Java - 2017.11.28 at 23h 28m 10s.xml">
-      <configuration name="All in KataGildedRose-Problem-Java" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_KataGildedRose-Problem-Java - 2017.11.28 at 23h 30m 49s.xml">
-      <configuration name="All in KataGildedRose-Problem-Java" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_KataGildedRose-Problem-Java - 2017.11.28 at 23h 32m 02s.xml">
       <configuration name="All in KataGildedRose-Problem-Java" configurationId="JUnit" />
     </history-entry>
@@ -411,9 +405,16 @@
     <history-entry file="All_in_KataGildedRose-Problem-Java - 2017.11.28 at 23h 40m 04s.xml">
       <configuration name="All in KataGildedRose-Problem-Java" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_KataGildedRose-Problem-Java - 2017.11.28 at 23h 41m 24s.xml">
+      <configuration name="All in KataGildedRose-Problem-Java" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_KataGildedRose-Problem-Java - 2017.11.28 at 23h 42m 14s.xml">
+      <configuration name="All in KataGildedRose-Problem-Java" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -423,7 +424,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -567,8 +568,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/gildedrose/ConjuredItemsTestScenarios.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="38" column="31" lean-forward="false" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+        <state relative-caret-position="549">
+          <caret line="43" column="31" lean-forward="false" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -577,8 +578,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gildedrose/GildedRose.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="41" column="25" lean-forward="false" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+        <state relative-caret-position="323">
+          <caret line="52" column="21" lean-forward="true" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
           <folding />
         </state>
       </provider>

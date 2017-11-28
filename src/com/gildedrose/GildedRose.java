@@ -37,7 +37,10 @@ class GildedRose {
 
                 if (currentItem.quality < 50) {
                     if (currentItem.name.equals(CONJURED)) {
-                        if (currentItem.quality > 1) {
+                        if (currentItem.quality <= 2) {
+                            currentItem.quality = 0;
+                        }
+                        else {
                             currentItem.quality = currentItem.quality - 2;
                         }
                     }
