@@ -26,11 +26,10 @@ class GildedRose {
             Item currentItem = items[i];
             if (isRegularItem(currentItem)) {
                 if (currentItem.quality > 0) {
-                    if (!currentItem.name.equals(SULFURAS)) {
-                        currentItem.quality = currentItem.quality - 1;
-                    }
+                    currentItem.quality = currentItem.quality - 1;
                 }
-            } else {
+            }
+            if (!isRegularItem(currentItem)) {
                 if (currentItem.quality < 50) {
                     currentItem.quality = currentItem.quality + 1;
 
@@ -84,6 +83,7 @@ class GildedRose {
 
     private boolean isRegularItem(Item currentItem) {
         return !currentItem.name.equals(AGED_BRIE)
-                && !currentItem.name.equals(BACKSTAGE_PASSES);
+                && !currentItem.name.equals(BACKSTAGE_PASSES)
+                && !currentItem.name.equals(SULFURAS);
     }
 }
