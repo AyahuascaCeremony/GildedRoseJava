@@ -7,7 +7,7 @@ import static org.junit.Assert.assertEquals;
 
 public class ConjuredItemsTestScenarios {
 
-    @Ignore @Test
+    @Test
     public void ConjuredItems_quality_decreases_by_two_each_day() {
         Item[] items = {
                 new Item("Conjured Mana Cake", 3, 6)
@@ -20,5 +20,7 @@ public class ConjuredItemsTestScenarios {
         assertEquals(4, items[0].quality);
         assertEquals(2, items[0].sellIn);
     }
+
+
 
 }
