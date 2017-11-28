@@ -21,6 +21,22 @@ public class ConjuredItemsTestScenarios {
         assertEquals(2, items[0].sellIn);
     }
 
+    @Test
+    public void ConjuredItems_quality_cannot_be_negative() {
+        Item[] items = {
+                new Item("Conjured Mana Cake", 3, 0),
+                new Item("Conjured Mana Cake", 5, 2)
+        };
 
+        GildedRose app = new GildedRose(items);
+
+        app.updateQuality();
+
+        assertEquals(0, items[0].quality);
+        assertEquals(2, items[0].sellIn);
+
+        assertEquals(0, items[1].quality);
+        assertEquals(4, items[1].sellIn);
+    }
 
 }
