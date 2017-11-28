@@ -24,11 +24,13 @@ class GildedRose {
     public void updateQuality() {
         for (int i = 0; i < items.length; i++) {
             Item currentItem = items[i];
+
             if (isRegularItem(currentItem)) {
                 if (currentItem.quality > 0) {
                     currentItem.quality = currentItem.quality - 1;
                 }
             }
+
             if (!isRegularItem(currentItem)) {
                 if (currentItem.quality < 50) {
                     currentItem.quality = currentItem.quality + 1;
@@ -42,19 +44,20 @@ class GildedRose {
             reduceSellInExceptSulfuras(currentItem);
 
             if (currentItem.sellIn < 0) {
-                if (!currentItem.name.equals(AGED_BRIE)) {
-                    if (!currentItem.name.equals(BACKSTAGE_PASSES)) {
-                        if (currentItem.quality > 0) {
-                            if (!currentItem.name.equals(SULFURAS)) {
-                                currentItem.quality = currentItem.quality - 1;
-                            }
-                        }
-                    } else {
-                        currentItem.quality = 0;
-                    }
-                } else {
+
+                if (currentItem.name.equals(AGED_BRIE)) {
                     if (currentItem.quality < 50) {
                         currentItem.quality = currentItem.quality + 1;
+                    }
+                }
+
+                if (currentItem.name.equals(BACKSTAGE_PASSES)) {
+                    currentItem.quality = 0;
+                }
+
+                if (isRegularItem(currentItem)) {
+                    if (currentItem.quality > 0) {
+                        currentItem.quality = currentItem.quality - 1;
                     }
                 }
             }
