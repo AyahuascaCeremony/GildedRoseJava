@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="067178a4-07b6-43db-90d0-4661e08d8876" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gildedrose/GildedRose.java" afterPath="$PROJECT_DIR$/src/com/gildedrose/GildedRose.java" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -17,8 +18,8 @@
       <file leaf-file-name="GildedRose.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/gildedrose/GildedRose.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="58" column="20" lean-forward="true" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
+            <state relative-caret-position="521">
+              <caret line="51" column="78" lean-forward="true" selection-start-line="51" selection-start-column="78" selection-end-line="51" selection-end-column="78" />
               <folding />
             </state>
           </provider>
@@ -356,9 +357,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_KataGildedRose-Problem-Java - 2017.11.28 at 22h 44m 59s.xml">
-      <configuration name="All in KataGildedRose-Problem-Java" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_KataGildedRose-Problem-Java - 2017.11.28 at 22h 47m 37s.xml">
       <configuration name="All in KataGildedRose-Problem-Java" configurationId="JUnit" />
     </history-entry>
@@ -381,6 +379,9 @@
       <configuration name="All in KataGildedRose-Problem-Java" configurationId="JUnit" />
     </history-entry>
     <history-entry file="All_in_KataGildedRose-Problem-Java - 2017.11.28 at 23h 01m 50s.xml">
+      <configuration name="All in KataGildedRose-Problem-Java" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_KataGildedRose-Problem-Java - 2017.11.28 at 23h 09m 44s.xml">
       <configuration name="All in KataGildedRose-Problem-Java" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ConjuredItemsTestScenarios_ConjuredItems_quality_decreases_by_two_each_day - 2017.11.28 at 22h 47m 30s.xml">
@@ -487,8 +488,74 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gildedrose/GildedRose.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="58" column="20" lean-forward="true" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
+        <state relative-caret-position="249">
+          <caret line="50" column="13" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/gildedrose/SulfurasTestScenarios.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="43" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="24" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/gildedrose/BackstagePassesTestScenarios.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/gildedrose/AgedBrieTestScenarios.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/gildedrose/RegularItemsTestScenarios.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/gildedrose/ConjuredItemsTestScenarios.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/gildedrose/GildedRoseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="71" column="59" lean-forward="true" selection-start-line="71" selection-start-column="59" selection-end-line="71" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gildedrose/GildedRose.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="51" column="78" lean-forward="true" selection-start-line="51" selection-start-column="78" selection-end-line="51" selection-end-column="78" />
           <folding />
         </state>
       </provider>
