@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="067178a4-07b6-43db-90d0-4661e08d8876" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/gildedrose/RegularItemsTestScenarios.java" afterPath="$PROJECT_DIR$/test/com/gildedrose/RegularItemsTestScenarios.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/com/gildedrose/ConjuredItemsTestScenarios.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,8 +40,8 @@
       <file leaf-file-name="GildedRoseTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com/gildedrose/GildedRoseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+            <state relative-caret-position="459">
+              <caret line="71" column="59" lean-forward="true" selection-start-line="71" selection-start-column="59" selection-end-line="71" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,11 +49,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegularItemsTestScenarios.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ConjuredItemsTestScenarios.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/com/gildedrose/ConjuredItemsTestScenarios.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="55" lean-forward="false" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegularItemsTestScenarios.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com/gildedrose/RegularItemsTestScenarios.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="40" column="22" lean-forward="false" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+            <state relative-caret-position="408">
+              <caret line="24" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,6 +109,7 @@
         <option value="$PROJECT_DIR$/test/com/gildedrose/BackstagePassesTestScenarios.java" />
         <option value="$PROJECT_DIR$/test/com/gildedrose/AgedBrieTestScenarios.java" />
         <option value="$PROJECT_DIR$/test/com/gildedrose/RegularItemsTestScenarios.java" />
+        <option value="$PROJECT_DIR$/test/com/gildedrose/ConjuredItemsTestScenarios.java" />
       </list>
     </option>
   </component>
@@ -226,7 +240,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="BackstagePassesTestScenarios" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ConjuredItemsTestScenarios.ConjuredItems_quality_decreases_by_two_each_day" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.gildedrose.*" />
@@ -237,9 +251,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.gildedrose" />
-      <option name="MAIN_CLASS_NAME" value="com.gildedrose.BackstagePassesTestScenarios" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="com.gildedrose.ConjuredItemsTestScenarios" />
+      <option name="METHOD_NAME" value="ConjuredItems_quality_decreases_by_two_each_day" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
@@ -358,19 +372,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.BackstagePassesTestScenarios" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.All in KataGildedRose-Problem-Java" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.AgedBrieTestScenarios.AgedBrie_quality_increases_each_day" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.AgedBrieTestScenarios.AgedBrie_quality_cannot_exceed_fifty" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.RegularItemsTestScenarios.RegularItems_quality_decreases_each_day" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.All in KataGildedRose-Problem-Java" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.AgedBrieTestScenarios.AgedBrie_quality_increases_each_day" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.AgedBrieTestScenarios.AgedBrie_quality_cannot_exceed_fifty" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.RegularItemsTestScenarios.RegularItems_quality_decreases_each_day" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ConjuredItemsTestScenarios.ConjuredItems_quality_decreases_by_two_each_day" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.All in KataGildedRose-Problem-Java" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.RegularItemsTestScenarios.RegularItems_quality_decreases_each_day" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.AgedBrieTestScenarios.AgedBrie_quality_cannot_exceed_fifty" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.AgedBrieTestScenarios.AgedBrie_quality_increases_each_day" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.BackstagePassesTestScenarios" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ConjuredItemsTestScenarios.ConjuredItems_quality_decreases_by_two_each_day" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.RegularItemsTestScenarios.RegularItems_quality_decreases_each_day" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.AgedBrieTestScenarios.AgedBrie_quality_cannot_exceed_fifty" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.AgedBrieTestScenarios.AgedBrie_quality_increases_each_day" />
       </list>
     </recent_temporary>
   </component>
@@ -403,14 +417,14 @@
     <history-entry file="All_in_KataGildedRose-Problem-Java - 2017.11.28 at 22h 44m 59s.xml">
       <configuration name="All in KataGildedRose-Problem-Java" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BackstagePassesTestScenarios - 2017.11.28 at 22h 33m 09s.xml">
-      <configuration name="BackstagePassesTestScenarios" configurationId="JUnit" />
+    <history-entry file="All_in_KataGildedRose-Problem-Java - 2017.11.28 at 22h 47m 37s.xml">
+      <configuration name="All in KataGildedRose-Problem-Java" configurationId="JUnit" />
     </history-entry>
     <history-entry file="BackstagePassesTestScenarios - 2017.11.28 at 22h 34m 46s.xml">
       <configuration name="BackstagePassesTestScenarios" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BackstagePassesTestScenarios_BackstagePasses_with_five_or_less_days_increase_in_quality_at_triple_rate - 2017.11.28 at 22h 33m 04s.xml">
-      <configuration name="BackstagePassesTestScenarios.BackstagePasses_with_five_or_less_days_increase_in_quality_at_triple_rate" configurationId="JUnit" />
+    <history-entry file="ConjuredItemsTestScenarios_ConjuredItems_quality_decreases_by_two_each_day - 2017.11.28 at 22h 47m 30s.xml">
+      <configuration name="ConjuredItemsTestScenarios.ConjuredItems_quality_decreases_by_two_each_day" configurationId="JUnit" />
     </history-entry>
     <history-entry file="RegularItemsTestScenarios_RegularItems_quality_decreases_each_day - 2017.11.28 at 22h 43m 47s.xml">
       <configuration name="RegularItemsTestScenarios.RegularItems_quality_decreases_each_day" configurationId="JUnit" />
@@ -421,7 +435,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -487,20 +500,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/gildedrose/GildedRoseTest.java">
+    <entry file="file://$PROJECT_DIR$/test/com/gildedrose/RegularItemsTestScenarios.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+        <state relative-caret-position="408">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/gildedrose/RegularItemsTestScenarios.java">
+    <entry file="file://$PROJECT_DIR$/test/com/gildedrose/GildedRoseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="40" column="22" lean-forward="false" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+        <state relative-caret-position="459">
+          <caret line="71" column="59" lean-forward="true" selection-start-line="71" selection-start-column="59" selection-end-line="71" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/gildedrose/ConjuredItemsTestScenarios.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="55" lean-forward="false" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
