@@ -15,6 +15,8 @@ class GildedRose {
     public static final String AGED_BRIE = "Aged Brie";
     public static final String BACKSTAGE_PASSES = "Backstage passes to a TAFKAL80ETC concert";
     public static final String SULFURAS = "Sulfuras, Hand of Ragnaros";
+    public static final String CONJURED = "Conjured Mana Cake";
+
     Item[] items;
 
     public GildedRose(Item[] items) {
@@ -25,18 +27,24 @@ class GildedRose {
         for (int i = 0; i < items.length; i++) {
             Item currentItem = items[i];
 
-            if (isRegularItem(currentItem)) {
+            if (isRegularDecreasingQualityItem(currentItem)) {
                 if (currentItem.quality > 0) {
                     currentItem.quality = currentItem.quality - 1;
                 }
             }
 
-            if (!isRegularItem(currentItem)) {
+            if (!isRegularDecreasingQualityItem(currentItem)) {
+
                 if (currentItem.quality < 50) {
-                    currentItem.quality = currentItem.quality + 1;
+                    if (currentItem.name.equals(CONJURED)) {
+                        currentItem.quality = currentItem.quality - 2;
+                    }
+                    else {
+                        currentItem.quality = currentItem.quality + 1;
+                    }
 
                     if (currentItem.name.equals(BACKSTAGE_PASSES)) {
-                        decreaseBackstagePassQuality(currentItem);
+                        increaseBackstagePassQuality(currentItem);
                     }
                 }
             }
@@ -55,7 +63,7 @@ class GildedRose {
                     currentItem.quality = 0;
                 }
 
-                if (isRegularItem(currentItem)) {
+                if (isRegularDecreasingQualityItem(currentItem)) {
                     if (currentItem.quality > 0) {
                         currentItem.quality = currentItem.quality - 1;
                     }
@@ -70,7 +78,7 @@ class GildedRose {
         }
     }
 
-    private void decreaseBackstagePassQuality(Item currentItem) {
+    private void increaseBackstagePassQuality(Item currentItem) {
         if (currentItem.sellIn < 11) {
             if (currentItem.quality < 50) {
                 currentItem.quality = currentItem.quality + 1;
@@ -84,9 +92,10 @@ class GildedRose {
         }
     }
 
-    private boolean isRegularItem(Item currentItem) {
+    private boolean isRegularDecreasingQualityItem(Item currentItem) {
         return !currentItem.name.equals(AGED_BRIE)
                 && !currentItem.name.equals(BACKSTAGE_PASSES)
-                && !currentItem.name.equals(SULFURAS);
+                && !currentItem.name.equals(SULFURAS)
+                && !currentItem.name.equals(CONJURED);
     }
 }
